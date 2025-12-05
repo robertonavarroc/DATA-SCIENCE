@@ -1,6 +1,7 @@
 
 > # CONFIGURACION  GIT #
 > <font color="#5eff00ff"> COMANDOS PARA REALIZAR LA CONFIGURACION INICIAL DE GIT</font>
+- git es un controlador de versiones
 ```
  git config --global user.email "email"
 ```
@@ -87,6 +88,27 @@ git commit -m "message"
 <br>
 <br>
 
+> # RAMAS EN GIT
+> <font color="#5eff00ff"> LINEAS DE TIEMPO TEMPORALES </font>
+- Git es un controlador de versiones, donde podemos crear lineas temporales con los diferentes cambios que vamos haciendo en el codigo.
+
+> git branch
+- Para ver las ramas que tenemos creadas
+- :eye: Siempre la rama principal es la rama main
+
+>git checkout -b modulo1
+- Permite crear una nueva rama 
+
+>git checkout nombre_rama
+-Permite moverme a una rama ya creada
+
+<br>
+
+---
+
+<br>
+<br>
+
 > # ERRORES GIT 
 > <font color="#5eff00ff"> ERRORES FRECUENTES AL SUBIR ARCHIVOS AL REPOSITORIO REMOTO </font>
 
@@ -102,3 +124,26 @@ git commit -m "message"
 		* Quitar (Eliminar las credenciales)
 
 	* Referencia : https://www.youtube.com/watch?v=jysf-_kH0AM
+
+
+<br>
+
+---
+
+<br>
+<br>
+
+> # COMANDOS BASICOS
+> <font color="#5eff00ff"> COMANDOS BASICOS UNIX </font>
+
+>ls
+- Lista los elementos que tienes en una ruta determinada
+
+>cd
+- Se utiliza para moverme entre carpetas
+
+>cd ..
+- Se utliza para retroceder
+
+> code .
+- Abre tu proyecto en VSCODE
