@@ -1,4 +1,4 @@
-> #Variables
+> # Variables
 
 ```
 print('Texto')
