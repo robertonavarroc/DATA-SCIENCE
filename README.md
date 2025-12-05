@@ -75,6 +75,11 @@ git commit -m "message"
 ```
 - Envia los cambios ya confirmados de la rama local al repositorio remoto
 
+```
+ git rebase
+```
+- Si has estado trabajando en una rama y la rama principal ha avanzado, puedes usar rebase para incorporar los últimos cambios a tu rama. 
+
 <br>
 
 ---
@@ -89,11 +94,11 @@ git commit -m "message"
 > The requested **`URL`** returned **`error: 403`**
 
 * Solucion: 
-	1. Ir a PANEL DE CONTROL
-	1. Ir a CUENTA DE USUARIO
-	1. Ir a ADMINISTRADOR DE CREDENCIALES
-	1. Seleccionar CREDENCIALES DE WINDOWS
-	1. Seleccionar git:https://github.com
+	- Ir a PANEL DE CONTROL
+	- Ir a CUENTA DE USUARIO
+	- Ir a ADMINISTRADOR DE CREDENCIALES
+	- Seleccionar CREDENCIALES DE WINDOWS
+	- Seleccionar git:https://github.com
 		* Quitar (Eliminar las credenciales)
 
 	* Referencia : https://www.youtube.com/watch?v=jysf-_kH0AM
