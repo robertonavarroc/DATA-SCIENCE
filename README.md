@@ -33,7 +33,7 @@
 git config --list 
 ```
 - Muestra todas los valores de las credenciales seteadas en git
-    - :eye: Para salir utilizar el simbolo de admiracion **`(!)`**
+    - :eye: Para salir utilizar la tecla q **`(q)`**
 
 <BR>
 
