@@ -10,9 +10,8 @@ print(nombre_variable)
 ```
 - Se utiliza para imprimir un el valor de una variable
 
+> #### Ejemplo 001
 ```
-Podemos combinar
-
 print('Texto', nombre_variable)
 
 nombre = 'Roberto'
@@ -22,10 +21,57 @@ print('Hola', nombre)
 - :star: Resultado: `Hola Roberto`
 
 ```
+input('texto')
+```
+- Se utiliza para solicitar al usuario que ingrese un valor
+
+> #### Ejemplo 002
+```
 input('Cual es tu nombre?: ')
 
 nombre2 = input('Cual es tu nombre?: ')
 print('Hola', nombre2)
 ```
 - `input` se utiliza decirle al usuario que ingrese un valor
+- `print` Imprime el resultado
 - :star: Resultado: `Hola nombre2`
+
+<br>
+
+---
+
+<br>
+<br>
+
+> # Tipos de datos
+
+```
+#
+```
+- Se utiliza para escribir comentarios en pyhton
+
+```
+type(variable)
+```
+- Se utiliza para saber de que tipo de dato es la variable
+
+```
+print(`f`"{Variable1} {Variable2}")
+```
+- Utilizamos `f` dentro de un print, para poder imprimir variables
+> **Ejemplo**
+
+```   
+numero1 = int(input("Ingrese numero 1: "))
+numero2 = int(input("Ingrese numero 2: "))
+operacion = input("Ingrese la operacion +/- : ")
+
+if  operacion == "+":
+    resultado = numero1 + numero2 
+else:
+    resultado = numero1 - numero2
+
+#SALIDA
+print(f"{numero1} {operacion} {numero2} = {resultado}")
+```
+- :star: Resultado: 5 + 5 = 10
