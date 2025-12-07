@@ -5,10 +5,11 @@
 # QUE EL TIPO DE CAMBIO ES 3
 
 import os
+import time
 
-salir = "no"
+salir = "si"
 
-while salir == "no":
+while salir == "si":
     os.system("cls")
     
     print("======== [TIPO DE CAMBIO] ===========")
@@ -19,18 +20,23 @@ while salir == "no":
     print("========== [OPCIONES] =============")
     print("1.- SOLES A DOLARES")
     print("2.- DOLARES A SOLES")
-    opcion = input("Ingresar opcion 1 o 2: ")
+    print("3.- SALIR")
+    opcion = input("Ingresar opcion: ")
     
     if opcion == "1":
         cambio = float(moneda / 3)
         print(f"{moneda} de soles a dolares: {round(cambio,2)}")
     elif opcion == "2":
         cambio = float(moneda * 3)
-        print(f"{moneda} de solares a soles: {round(cambio,2)}")
+        print(f"{moneda} de dolares a soles: {round(cambio,2)}")
+    elif opcion == "3":
+        print("Programa Finalizado")
+        break
     else:
         print("Opcion Invalida")
-    
-    salir = input("Desea salir si/no: ")
-    if salir == "si":
-        break
+        salir = input("Deseas volver a intentarlo si/no: ").lower()
         
+        if  salir == "no":
+            break
+        
+    time.sleep(2)
