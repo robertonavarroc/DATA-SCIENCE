@@ -75,3 +75,39 @@ else:
 print(f"{numero1} {operacion} {numero2} = {resultado}")
 ```
 - :star: Resultado: 5 + 5 = 10
+
+---
+<br>
+
+> # Tipos de datos numericos
+- Existen **3** tipos de datos numero en pyhton `int (enteros)`, `float (decimal)`, `complex (complejos)`
+
+> ### **`int (entero)`**
+- Tipo de dato numerico
+```
+Ejemplo:
+    a = 5
+    print(type(a))
+
+    Resultado: <class 'int'>
+```
+
+> ### **`float (decimal)`**
+- Tipo de dato decimal
+```
+Ejemplo:
+    a = 10.5
+    print(type(a))
+
+    Resultado: <class 'float'>
+```
+
+> ### **`complex (complejos)`**
+- Tipo de dato complejo, consta de una parte real y otra parte imaginaria
+```
+Ejemplo:
+    a = (10.5 +/- 5f)
+    print(type(a))
+
+    Resultado: <class 'complex'>
+```
